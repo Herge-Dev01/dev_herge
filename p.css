@@ -1,0 +1,357 @@
+body{
+	width: 100%;
+	background: grey;
+	
+}
+p{
+	color: blue;
+	font-size: 22px;
+	padding-left: 1%;
+	margin-top: 3%;
+}
+header h1{
+	text-align: center;
+	font-size: 50px;
+	position: absolute;
+	margin-left: 45%;
+	color: white;
+	margin-top: -30%;
+	animation-direction: alternate;
+}
+header aside{
+	color: white;
+	float: right;
+	padding: 50px;
+	text-align: center;
+	margin-left: 70%;
+	font-size: 30px;
+	margin-top: 3%;
+	
+	
+}
+aside{
+	width: 40%;
+	margin-left: 60%;
+	margin-top: -37%;
+}
+#button{
+	flex: 0 0 22%;
+	margin: 5px 0;
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+	font-size: 22px;
+	font-weight: 600;
+	background:black ;
+	margin-top: 12%;
+	margin-left: 20%;
+	position: absolute;
+	
+}
+
+#bt{
+	width: 300px;
+	height: 50px;
+	background: rgb(24, 173, 74);
+	margin-top: 30%;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#bt:hover{
+	transform:scale(1.2);
+	cursor: pointer;
+}
+
+h3{
+	color: black;
+	font-size: 15px;
+	margin-top:17px;
+	margin-left: 15%;
+}
+
+
+header aside p{
+	color:white ;
+}
+#sect1{
+	width: 1000px;
+	height: 350px;
+	margin: auto;
+}
+
+	
+
+footer{
+	width: 100%;
+	height: 400px;
+	background: rgb(209, 204, 204);
+	margin-top: 150px;
+	position: absolute;
+	background-image: url("photo/bridge.jpg");
+}
+footer p{
+	font-size: 22px;
+	margin-left: 12%;
+	color: white;
+}
+
+
+footer h1{
+	color: rgb(68, 241, 241);
+	margin-top: -37%;
+	width: 100%;
+}
+#tweet{
+	width: 30%;
+	height: 300px;
+	
+	margin-bottom: 35px;
+	
+}
+#img{
+	width: 20px;
+	border: none;
+}
+footer aside h1{
+	color: rgb(68, 241, 241);
+	margin-top: -40%;
+	
+}
+
+#text{
+	width: 50%;
+	color:white;
+	margin-left: 25%;
+	margin-top: -33%;
+}	
+
+#a4{
+	width: 250px;
+	height: 300px;
+	margin-left:55%;
+	margin-top: 2%;
+	position: absolute;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+#a{
+	width: 250px;
+	height: 150px;
+	background-image: url("photo/bridge.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#a:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+#a5{
+	width: 250px;
+	height: 300px;
+	margin-left:370px;
+	margin-top: 2%;
+	position: absolute;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#a1{
+	width: 250px;
+	height: 150px;
+	background-image: url("photo/pixel.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+#a1:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+#a6{
+	width: 250px;
+	height: 300px;
+	margin-left:1%;
+	margin-top: 2%;
+	position: absolute;
+	background-image: url("nature.jpg");
+	border: 1px solid black;
+	background-position: center;
+	background-size: cover;
+	padding: 10px;
+}
+
+#a2{
+	width: 250px;
+	height: 150px;
+	background-image: url("photo/pix.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+#a2:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+
+p2{
+	color: rgb(35, 199, 221);
+	margin-top: -10%;
+	font-size: 30px;
+	padding-top: 2%;
+}
+
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0%;
+	padding-top: 40%;
+}
+
+p1{
+	color:white;
+	font-size: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+}
+
+p:hover{
+	transition: 1s;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+
+h2{
+	animation: float 5s linear infinite;
+}
+
+@keyframes float{
+	from{
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(-500px);
+	}
+}
+
+p1:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+
+
+#button2{
+	flex: 0 0 22%;
+	margin: 5px 0;
+	border-radius: 5px;
+	width: 80px;
+	height: 50px;
+	font-size: 22px;
+	font-weight: 600;
+	background: yellow;
+	position: absolute;
+	margin-top: 12%;
+	margin-left: 31%;
+	
+}
+
+header h2{
+	text-align:center;
+	color: white;
+	margin-top: -20px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Courier New', Courier, monospace;
+	color: black;
+	margin: auto;
+	padding-top: -2%;
+	
+}
+
+header{
+	background-color: grey;
+	transition: 1s;
+}
+header{
+	width: 100%;
+	height: 400px;
+	background-image: url("photo/pixel.jpeg");
+	margin: auto;
+	align-items: flex-end;
+	justify-content: space-between;
+	display: block;
+	padding-top: 1%;
+	background-position: center;
+	background-size: cover;
+}
+
+h1:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 1s;
+}
+
+span{
+	color: brown;
+	font-size: 50px!important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h2:hover{
+	transition: 1s;
+}
+
+header title{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 22px;
+	margin-top:1%;
+}
+ul li{
+    list-style: none;
+	display: inline-block;
+	background: black;
+	color: white;
+	width: 150px;
+	text-align: center;
+	height: 35px;
+	padding-top:17px;
+	margin-top: -35px;
+	float: right;
+	
+}
+ul li:hover{
+	background: yellow;
+	color: black;
+	cursor: pointer;
+	transition: 1s;
+}
+span{
+	font-size: 17px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+.fa{
+	font-size: 40px !important;
+	color: white;
+	background: black;
+	border-radius: 20%;
+	margin: auto;
+}
+.fa1{
+	
+		font-size: 40px !important;
+		color: white;
+		background: black;
+		border-radius: 20%;
+		text-align: center;
+		margin-left: 0%;
+	}
